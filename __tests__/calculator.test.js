@@ -36,4 +36,8 @@ describe('Age', () => {
     age.expectancy = 15;
     expect(age.mercuryExpectancy()).toEqual(100);
   });
+
+  test('return Venus years of expectancy', () => {
+    expect(age.venusExpectancy()).toEqual(97);
+  });
 });
