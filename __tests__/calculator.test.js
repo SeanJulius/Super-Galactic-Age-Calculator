@@ -29,6 +29,6 @@ describe('Age', () => {
   });
 
   test('return Mercury age expectancy', () => {
-    expect(age.mercuryExpectancy()).toEqual(413);
+    expect(age.mercuryExpectancy()).toEqual(250);
   });
 });

@@ -24,6 +24,12 @@ export default class Age {
     jupiter() {
       this.earth =parseInt((this.earth / 11.6).toFixed());
       return this.earth;
-    }   
+    }  
+    
+    mercuryExpectancy() {
+      if (this.expectancy >= this.earth) {
+        return parseInt((this.expectancy - this.earth) / .24);
+      }
+    }
 }
 
