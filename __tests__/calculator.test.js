@@ -38,11 +38,15 @@ describe('Age', () => {
   });
 
   test('return Venus years of expectancy', () => {
-    expect(age.venusExpectancy()).toEqual(97);
+    expect(age.venusExpectancy()).toEqual(96);
   });
 
   test('return Venus years living past expectancy', () => {
     age.expectancy = 15;
-    expect(age.mercuryExpectancy()).toEqual(39);
+    expect(age.venusExpectancy()).toEqual(38);
+  });
+
+  test('return Mars years of expectancy', () => {
+    expect(age.marsExpectancy()).toEqual(32);
   });
 });
