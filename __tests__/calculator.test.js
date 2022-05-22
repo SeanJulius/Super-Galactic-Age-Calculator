@@ -54,4 +54,8 @@ describe('Age', () => {
     age.expectancy = 15;
     expect(age.marsExpectancy()).toEqual(12);
   });
+
+  test('return Jupiter years of expectancy', () => {
+    expect(age.jupiterExpectancy()).toEqual(5);
+  });
 });
