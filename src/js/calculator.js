@@ -49,5 +49,11 @@ export default class Age {
         return parseInt((this.earth - this.expectancy) / 1.88);
       }
     }
+
+    jupiterExpectancy() {
+      if (this.expectancy >= this.earth) {
+        return parseInt((this.expectancy - this.earth) / 11.86);
+      }
+    }
 }
 
