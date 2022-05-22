@@ -47,6 +47,6 @@ describe('Age', () => {
   });
 
   test('return Mars years of expectancy', () => {
-    expect(age.marsExpectancy()).toEqual(32);
+    expect(age.marsExpectancy()).toEqual(31);
   });
 });
