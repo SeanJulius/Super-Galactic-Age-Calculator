@@ -29,6 +29,8 @@ export default class Age {
     mercuryExpectancy() {
       if (this.expectancy >= this.earth) {
         return parseInt((this.expectancy - this.earth) / .24);
+      } else {
+        return parseInt((this.earth - this.expectancy) / .24);
       }
     }
 }
