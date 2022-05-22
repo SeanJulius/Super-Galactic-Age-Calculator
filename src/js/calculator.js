@@ -45,6 +45,8 @@ export default class Age {
     marsExpectancy() {
       if (this.expectancy >= this.earth) {
         return parseInt((this.expectancy - this.earth) / 1.88);
+      } else {
+        return parseInt((this.earth - this.expectancy) / 1.88);
       }
     }
 }
