@@ -27,4 +27,8 @@ describe('Age', () => {
   test('return Jupiter age', () => {
     expect(age.jupiter()).toEqual(3);
   });
+
+  test('return Mercury age expectancy', () => {
+    expect(age.mercuryExpectancy()).toEqual(413);
+  });
 });
