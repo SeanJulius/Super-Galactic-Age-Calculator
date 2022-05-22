@@ -5,5 +5,10 @@ export default class Age {
       this.earth = earth;
       this.expectancy = expectancy;
     }
+
+    mercury() {
+      this.earth = parseInt((this.earth / .24).toFixed());
+      return this.earth;
+    }
 }
 
