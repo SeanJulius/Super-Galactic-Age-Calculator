@@ -17,8 +17,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'example-env-img',
       template: './src/index.html',
-     inject: 'body'
-   })
+      inject: 'body'
+  })
   ],
   module: {
     rules: [
@@ -40,12 +40,11 @@ module.exports = {
           'html-loader'
         ]
       },
-     {
+      {
         test: /\.css$/,
         use: [
           'style-loader',
-          'css-loader'
-       ]
+          'css-loader' ]
       },
       {
         test: /\.js$/,

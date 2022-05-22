@@ -7,12 +7,16 @@ describe('Age', () => {
     age = new Age(39, 99);
   });
 
-  test(' should instantiate a new Age constructor properties', () => {
+  test('should instantiate a new Age constructor properties', () => {
     expect(age.earth).toEqual(39);
     expect(age.expectancy).toEqual(99);
   });
 
   test('return Mercury age', () => {
-    expect(age.mercury).toEqual(162);
-  })
+    expect(age.mercury()).toEqual(163);
+  });
+
+  test('return Venus age', () => {
+    expect(age.venus()).toEqual(63);
+  });
 });
