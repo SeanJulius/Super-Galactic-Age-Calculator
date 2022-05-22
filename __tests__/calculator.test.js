@@ -58,4 +58,9 @@ describe('Age', () => {
   test('return Jupiter years of expectancy', () => {
     expect(age.jupiterExpectancy()).toEqual(5);
   });
+
+  test('return Jupiter years living past expectancy', () => {
+    age.expectancy = 15;
+    expect(age.jupiterExpectancy()).toEqual(2);
+  }); 
 });
