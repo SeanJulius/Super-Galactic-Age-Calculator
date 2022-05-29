@@ -18,9 +18,10 @@ Technologies Used
 ## Application Setup Instructions
 
 Clone this repository to your desktop.
-Navigate to the top level of the directory.
-Open Portfolio-Landing-Page
-Open Index.html
+Open Directory via terminal and execute $ npm Install.
+Once install is completed, in the terminal, run $ npm run build.
+Complete a test of all the functions with $ npm run test.
+To open the project in your browsers, run $ npm run start.
 
 ## Known Bugs
 
