@@ -17,11 +17,11 @@ Technologies Used
 
 ## Application Setup Instructions
 
-Clone this repository to your desktop.
-Open Directory via terminal and execute $ npm Install.
-Once install is completed, in the terminal, run $ npm run build.
-Complete a test of all the functions with $ npm run test.
-To open the project in your browsers, run $ npm run start.
+* _Clone this repository to your desktop._
+* _Open Directory via terminal and execute $ npm Install._
+* _Once install is completed, in the terminal, run $ npm run build._
+* _Complete a test of all the functions with $ npm run test._
+* _To open the project in your browsers, run $ npm run start._
 
 ## Known Bugs
 
